@@ -1,0 +1,133 @@
+<!DOCTYPE html><html lang="kk">
+<head>
+  <meta charset="UTF-8" />
+  <title>AutoCAD KZ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />  <!-- Google Font -->  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    body {
+      background: radial-gradient(circle at top, #0f172a, #020617);
+      color: #e5e7eb;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 30px;
+      text-align: center;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    header h1 {
+      font-size: 42px;
+      color: #22d3ee;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      margin-top: 10px;
+      color: #94a3b8;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      padding: 60px;
+      align-items: center;
+    }
+
+    .hero-text h2 {
+      font-size: 32px;
+      color: #38bdf8;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      line-height: 1.6;
+      color: #cbd5f5;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 28px;
+      background: linear-gradient(135deg, #22d3ee, #6366f1);
+      color: #020617;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: 600;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 0 25px rgba(99,102,241,0.6);
+    }
+
+    .media-box {
+      position: relative;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 0 40px rgba(34,211,238,0.25);
+    }
+
+    .media-box img {
+      width: 100%;
+      display: block;
+    }
+
+    .glow {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(120deg, transparent, rgba(34,211,238,0.15), transparent);
+      animation: glow 3s infinite;
+    }
+
+    @keyframes glow {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(100%); }
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 14px;
+      color: #64748b;
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+
+    @media(max-width: 900px) {
+      .hero {
+        grid-template-columns: 1fr;
+        padding: 40px 20px;
+      }
+    }
+  </style></head>
+<body>  <header>
+    <h1>AutoCAD KZ</h1>
+    <p>Заманауи сызбалар • Қазақша қызмет </p>
+  </header>  <section class="hero">
+    <div class="hero-text">
+      <h2>AutoCAD сызбалары — жаңа деңгейде</h2>
+      <p>
+        Біз AutoCAD арқылы үй, іргетас, жоспар және 3D сызбаларды
+        кәсіби түрде дайындаймыз. 
+    
+      </p>
+      <a href="#" class="btn">байланыс нөмірі:87756211186</a>
+    </div><div class="media-box">
+ 
+  <img src="c:\Users\Lenovo\Documents\сурет2.jpeg" alt="AutoCAD сызбасы">
+  <img src="c:\Users\Lenovo\Documents\сайтқа фото.jpeg">
+  <div class="glow"></div>
+</div>
+
+  </section>  <footer>
+    © 2026 AutoCAD KZ | Барлық құқықтар қорғалған
+  </footer></body>
+</html>
